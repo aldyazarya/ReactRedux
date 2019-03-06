@@ -2,14 +2,16 @@ import React from 'react'
 
 import Songlist from './SongList'
 import SongDetail from './SongDetail'
-import ArtistDetail from './ArtistDetail'
+import ImageDetail from './ImageDetail'
+import MemberNameDetail from './MemberNameDetail'
 
 const App = () => {
     return(
         <div>
             <Songlist/>
             <SongDetail/>
-            <ArtistDetail/>
+            <ImageDetail/>
+            <MemberNameDetail/>
         </div>
     )
 }
